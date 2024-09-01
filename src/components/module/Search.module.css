@@ -3,7 +3,7 @@
   position: relative;
 }
 .search__wrapper input {
-  width: 30rem;
+  max-width: 30rem;
   height: 5rem;
   padding: 1rem;
   font-size: 1.76rem;
