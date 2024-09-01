@@ -30,7 +30,7 @@ html {
 body {
   font-family: "op";
   font-size: 1.6rem;
-  width: 120rem;
+  max-width: 120rem;
   min-height: 100vh;
   padding: 1rem;
   margin: 0 auto;

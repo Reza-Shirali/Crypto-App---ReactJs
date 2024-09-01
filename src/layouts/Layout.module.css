@@ -11,7 +11,7 @@
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   margin-top: 2rem;
-  width: 120rem;
+  max-width: 120rem;
 }
 .header h1 {
   user-select: none;
