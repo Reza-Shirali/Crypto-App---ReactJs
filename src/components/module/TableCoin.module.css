@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 10rem;
+  min-height: 100rem;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table thead {
+  border-bottom: 0.2rem solid #fff;
+  margin-bottom: 2rem;
+}
+.table th {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 1rem 0;
+}
+.table td {
+  font-family: "op";
+}
+.table tbody tr {
+  height: 8rem;
+  border-bottom: 0.1rem solid #22262e;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 600px) {
+  .table {
+    display: block;
+    overflow-y: scroll;
+  }
+  .table td,
+  .table th {
+    padding: 0 1rem;
+  }
+}

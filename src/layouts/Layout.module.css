@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3874ff;
+  padding: 2rem 2rem;
+  margin-bottom: 15rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  margin-top: 2rem;
+}
+.header h1 {
+  user-select: none;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.76rem;
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  text-align: center;
+  background-color: #3874ff;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}

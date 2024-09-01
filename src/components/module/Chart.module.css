@@ -1,0 +1,92 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0.3rem);
+}
+.cross {
+  display: inline-block;
+  font-weight: 2.4rem;
+  font-weight: 700;
+  background-color: #d33633;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  margin: 3rem 0 0 3rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  cursor: pointer;
+}
+.chart {
+  width: 80rem;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 5rem;
+  background-color: #18181ce6;
+  border: 0.2rem solid #404042;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.graph {
+  width: 76rem;
+  height: 30rem;
+}
+.name {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem 0 3rem;
+}
+.name img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 2rem;
+}
+.name p {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.types {
+  margin-bottom: 3rem;
+}
+.types button {
+  margin: 1rem 2rem;
+  background-color: #18181cdb;
+  border: 0.1rem solid #3874ff;
+  color: #3874ff;
+  font-size: 1.6rm;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  cursor: pointer;
+}
+.types .selected {
+  background-color: #3874ff;
+  color: #fff;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 2rem 0;
+}
+.details div {
+  display: flex;
+  font-size: 1.76rem;
+}
+.details p {
+  margin-right: 0.7rem;
+  color: #3874ff;
+  font-weight: 700;
+}
